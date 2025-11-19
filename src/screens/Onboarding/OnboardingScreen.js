@@ -5,7 +5,7 @@ import { useAppTheme } from "../../context/ThemeContext";
  
 const { width } = Dimensions.get("window");
  
-const logoVertical = require("../../../assets/logo/Logo-Serene-Work-VER.png");
+const logoVertical = require("../../../assets/img/Logo-Serene-Work-VER.png");
  
 const steps = [
   {
@@ -50,16 +50,9 @@ const OnboardingScreen = ({ navigation }) => {
           style={styles.logoImage}
           resizeMode="contain"
           accessible
-          accessibilityLabel="Logotipo do Serenework"
+          accessibilityLabel="Logotipo do SereneWork"
         />
  
-        <Text style={[styles.appName, { color: theme.text }]}>
-          Serenework
-</Text>
- 
-        <Text style={[styles.tagline, { color: theme.textSecondary }]}>
-          Bem-estar emocional no futuro do trabalho.
-</Text>
 </View>
  
 <View
